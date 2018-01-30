@@ -553,7 +553,7 @@ body{
 }
 
 .btn-fb:active:before{
-opacity: 0.3;
+	opacity: 0.3;
 }
 
 .btn-insta::before{
@@ -569,11 +569,11 @@ opacity: 0.3;
 	height: 21px;
 }
 .btn-insta:active:before{
-opacity: 0.3;
+	opacity: 0.3;
 }
 
 .social{
-	min-width: 33%x;
+	min-width: 33%%;
 }
 
 .footer-bottom{
