@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>мой сайт</title>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<header class="header-main">
+	<div class="header-top container">
+		<a class="header-logo" href="index.html"><img src="nerds-logo.png" width="160px" height="65px;"></img></a>
+		<nav class="nav-menu nav-menu--closed menu-nojs">
+			<button type="button" class="main-nav__toggle"><span class="visually-hidden">Открыть меню</span></button>
+			<ul>
+				<li class="nav-menu__item"><a href="index.html">Студия</a></li>
+				<li class="nav-menu__item"><a href="#">Клиенты</a></li>
+				<li class="nav-menu__item page-active"><a>Магазин</a></li>
+				<li class="nav-menu__item"><a href="#">Контакты</a></li>
+				<li class="nav-menu__item header-basket"><a class="basket-link" href="#">Корзина</a></li>
+			</ul>
+		</nav>
+	</div>
+	<h2 class="catalog-title">Магазин готовых шаблонов</h2>
+</header>
+
+<main class="catalog-flex container">
+	<aside class="catalog-filter">
+		<form action="#" method="post">
+			<b class="range-filter-text">Стоимость:</b>
+
+			<div class="range-filter">
+				<div class="range-controls">
+					<div class="range-scale">
+						<div class="bar" style="width: 70%;">
+						</div>
+					</div>
+					<div class="toggle min-toggle"></div>
+					<div class="toggle max-toggle"></div>
+				</div>
+				<div class="price-controls">
+					от <input class="min-price" type="text" value="0">
+					до <input class="max-price" type="text" value="15000">
+				</div>
+			</div>
+			
+			<b class="filter-btext">Сетка:</b>
+			<form class="form-feature" action="#" method="GET">
+				<input type="radio" id="rad1" name="feature" checked="checked">
+				<label for="rad1">Адаптивная</label>
+				<input type="radio" id="rad2" name="feature">
+				<label for="rad2">Фиксированная</label>
+				<input type="radio" id="rad3" name="feature">
+				<label for="rad3">Резиновая</label>
+			</form>
+
+			<b class="filter-btext">Особенности:</b>
+			<form class="form-feature" action="#" method="GET">
+				<input type="checkbox" id="check1">
+				<label for="check1">Слайдер</label>
+				<input type="checkbox" id="check2">
+				<label for="check2">Блок приемуществ</label>
+				<input type="checkbox" id="check3">
+				<label for="check3">Новости</label>
+				<input type="checkbox" id="check4">
+				<label for="check4">Галерея</label>
+				<input type="checkbox" id="check5">
+				<label for="check5" disabled="disabled">Корзина</label>
+			</form>
+
+			<a class="lnk-page next-page" href="">Показать</a>
+	</aside>	
+
+	<section class="catalog-main">
+
+		<div class="catalog-sort">
+			<b class="sort-text">Сортировать:</b>
+			<div class="sort-options">
+				<a class="sort-link sort-link--active" href="#">По цене</a>
+				<a class="sort-link" href="#">По типу</a>
+				<a class="sort-link" href="#">По названию</a>
+				<a class="sort-arrow__down sort-arrow--active" href="#">Cортировка вниp</a>
+				<a class="sort-arrow__up" href="#">Сортировка вверх</a>
+				</div>
+		</div>
+
+	<div class="catalog-items">
+		<div class="cat-item">
+			<img src="images/img-sedona.jpg">
+			<div class="cat-item-info">
+				<b class="cat-item-title">Pink App</b>
+				<p class="cat-item-description">Продуктовый лендинг приложений для IOS и Android</p>
+				<div class="buy-link-cont">
+				<a class="cat-buy-btn" href="#">9 999 Руб.</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="cat-item">
+			<img src="images/img-sedona.jpg">
+			<div class="cat-item-info">
+				<b class="cat-item-title">Pink App</b>
+				<p class="cat-item-description">Продуктовый лендинг приложений для IOS и Android</p>
+				<div class="buy-link-cont">
+				<a class="cat-buy-btn" href="#">9 999 Руб.</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="cat-item">
+			<img src="images/img-sedona.jpg">
+			<div class="cat-item-info">
+				<b class="cat-item-title">Pink App</b>
+				<p class="cat-item-description">Продуктовый лендинг приложений для IOS и Android</p>
+				<div class="buy-link-cont">
+				<a class="cat-buy-btn" href="#">9 999 Руб.</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="cat-item">
+			<img src="images/img-sedona.jpg">
+			<div class="cat-item-info">
+				<b class="cat-item-title">Pink App</b>
+				<p class="cat-item-description">Продуктовый лендинг приложений для IOS и Android</p>
+				<div class="buy-link-cont">
+				<a class="cat-buy-btn" href="#">9 999 Руб.</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="cat-item">
+			<img src="images/img-sedona.jpg">
+			<div class="cat-item-info">
+				<b class="cat-item-title">Pink App</b>
+				<p class="cat-item-description">Продуктовый лендинг приложений для IOS и Android</p>
+				<div class="buy-link-cont">
+					<a class="cat-buy-btn" href="#">9 999 Руб.</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="cat-item">
+			<img src="images/img-sedona.jpg">
+			<div class="cat-item-info">
+				<b class="cat-item-title">Pink App</b>
+				<p class="cat-item-description">Продуктовый лендинг приложений для IOS и Android</p>
+				<div class="buy-link-cont">
+				<a class="cat-buy-btn" href="#">9 999 Руб.</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="cat-item">
+			<img src="images/img-sedona.jpg">
+			<div class="cat-item-info">
+				<b class="cat-item-title">Pink App</b>
+				<p class="cat-item-description">Продуктовый лендинг приложений для IOS и Android</p>
+				<div class="buy-link-cont">
+				<a class="cat-buy-btn" href="#">9 999 Руб.</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="cat-item">
+			<img src="images/img-sedona.jpg">
+			<div class="cat-item-info">
+				<b class="cat-item-title">Pink App</b>
+				<p class="cat-item-description">Продуктовый лендинг приложений для IOS и Android</p>
+				<div class="buy-link-cont">
+					<a class="cat-buy-btn" href="#">9 999 Руб.</a>
+				</div>
+			</div>
+		</div> 
+	</div>
+
+	<div class="catalog-next">
+		<a class="lnk-page curent-page" href="">1</a>
+		<a class="lnk-page" href="">2</a>
+		<a class="lnk-page" href="">3</a>
+		<a class="lnk-page next-page" href="">Следующая</a>
+	</div>
+	</section>
+</main>
+
+<footer class="footer-main">
+	<section class="footer-map">
+		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab94dba444a23a7371bf63d48583191211893391423806060c96a593b1f3e168a&amp;width=1000px25&amp;height=416&amp;lang=ru_RU&amp;scroll=false">
+		</script>
+	</section>
+
+	<section class="footer-bottom container">
+		<div class="absolute-contacts">
+			<div class="abs-contacts-wrapper">
+				<b>NERDS DESIGN STUDIO</b>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi!</p>
+				<p class="absolute-phone">тел. +777777777</p>
+				<button type="button" class="option-btn btn-red write-us">Напишите Нам</a>
+			</div>
+		</div>
+
+		<div class="social-icons">
+			<a class="btn-social btn-vk" href="#"></a>
+			<a class="btn-social btn-fb" href="#"></a>
+			<a class="btn-social btn-insta" href="#"></a>
+		</div>
+
+		<div class="footer-descr">
+			<b class="footer-title">Давайте дружить, это выгодно!</b>
+			<p class="footer-text">Скидка 10% для друзей из социальных сетей</p>
+		</div>
+	</section>
+</footer>
+
+<div class="message-us">
+	<button type="button" class="btn-close">Click here to close!</button>
+	<b class="message-us-text">Напишите нам</b>
+	<div class="message-flex">
+		<div class="message-name">
+			<b>Ваше Имя:</b>
+			<input type="text" name="name" class="line" 
+			placeholder="Представьтесь ,пожалуйста">
+		</div>
+		<div class="message-email">
+			<b>Ваш Email:</b>
+			<input type="email" name="email" class="line" 
+	 		placeholder="Для отправки ответа">
+		</div>
+ </div>
+
+	<div class="message-text">
+		<b>Текст письма:</b>
+		<textarea class="message-textarea" 
+		placeholder="В свободной форме"></textarea>
+		</div>
+		<button type="button" class="slider-btn btn-red btn-send">Написать</button>
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
