@@ -572,7 +572,7 @@ body{
 	opacity: 0.3;
 }
 
-.social{
+.social-icons{
 	min-width: 33%%;
 }
 
@@ -1235,7 +1235,7 @@ input[class="line"]:hover,
   right: 0;
 }
 
-.social{
+.social-icons{
 	width: 50%;
 }
 .message-us{
@@ -1404,7 +1404,7 @@ input[class="line"]{
 	width: 250px;
 }
 
-.social{
+.social-icons{
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 20px;

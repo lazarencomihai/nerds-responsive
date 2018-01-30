@@ -4,7 +4,8 @@
  var openModal = document.querySelector('.write-us');
 
 
-openModal.addEventListener('click',function(){
+openModal.addEventListener('click',function(e){
+	e.preventDefault();
 document.querySelector('.message-us').style.display = "block";
 });
 
