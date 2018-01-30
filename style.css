@@ -572,7 +572,7 @@ opacity: 0.3;
 opacity: 0.3;
 }
 
-.social-icons{
+.social{
 	min-width: 33%x;
 }
 
@@ -1235,7 +1235,7 @@ input[class="line"]:hover,
   right: 0;
 }
 
-.social-icons{
+.social{
 	width: 50%;
 }
 .message-us{
@@ -1404,7 +1404,7 @@ input[class="line"]{
 	width: 250px;
 }
 
-.social-icons{
+.social{
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -1567,7 +1567,7 @@ input[class="line"]{
 }
 
 .cat-item-info
-{
+{social
 	z-index: 10;
 }
 
