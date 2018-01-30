@@ -640,7 +640,7 @@ opacity: 0.3;
   border-bottom: 15px solid #000000;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  opacity: 0.2 ;
+  opacity: 0.2;
 }
 
 .sort-arrow--active{
@@ -649,7 +649,7 @@ opacity: 0.3;
 
 .sort-arrow__down:hover,
 .sort-arrow__up:hover{
-opacity: 0.3 ;
+	opacity: 0.3 ;
 }
 
 .sort-arrow__down:active,
